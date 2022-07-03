@@ -26,7 +26,7 @@ Acceptance Criteria:
 
 # CRUD
 | Verb | Path | Action | Route Name
-| :---:   | :-: | :-: | :-: |
+| :---: | :-: | :-: | :-: |
 | GET | /api/getCardHolderInfo | getCardHolderInfo | Access.getCardHolderInfo
 | GET | /api/authentication/cn={rfid}&ip={location_ip} | authentication | Access.authentication
 
@@ -44,5 +44,5 @@ Acceptance Criteria:
 6. then run command on terminal start the Laravel server [php artisan serve]
 
 ## Testing
-1. I have created a phpunit test on tests/Feature/AuthenticationTest.php and CardHolderInfoTest
-Run command in termal with the project folder [php vendor/bin/phpunit]
+1. I have created a phpunit test on tests/Feature/AuthenticationTest.php and CardHolderInfoTest.php
+- Run command in termal with the project folder [php vendor/bin/phpunit]
