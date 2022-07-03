@@ -28,7 +28,7 @@ Acceptance Criteria:
 | Verb | Path | Action | Route Name
 | :---: | :-: | :-: | :-: |
 | GET | /api/getCardHolderInfo | getCardHolderInfo | Access.getCardHolderInfo
-| GET | /api/authentication/cn={rfid}&ip={location_ip} | authentication | Access.authentication
+| GET | /api/authentication/cn={rfid}&sip={sip} | authentication | Access.authentication
 
 # Used
 - Laravel 8
