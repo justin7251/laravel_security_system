@@ -69,7 +69,7 @@ class Employee extends Model
         })
         ->join("buildings", function($join) {
             $join->on("buildings.id", "=", "building_mapping.from_id")
-            ->where("buildings.isp", "=", DB::raw("'" . request('isp') . "'"));
+            ->where("buildings.sip", "=", DB::raw("'" . request('sip') . "'"));
         })
         ->leftJoin("accesslogs", "accesslogs.employee_id", "=", "employees.id")
         ->where("employees.rfid", DB::raw("'" . request('cn') . "'"))->get();

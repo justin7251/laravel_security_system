@@ -10,14 +10,14 @@ GET {{host}}/api/getCardHolderInfo?cn=q5shqv3r7bptsuzs6cincoif6esrt3r9
 
 
 ###
-GET {{host}}/api/authentication?isp=81.10.230.31&cn=q5shqv3r7bptsuzs6cincoif6esrt3r9
+GET {{host}}/api/authentication?sip=81.10.230.31&cn=q5shqv3r7bptsuzs6cincoif6esrt3r9
 
 ###
 
-GET {{host}}/api/authentication?isp=12.1.214.1&cn=q5shqv3r7bptsuzs6cincoif6esrt3r9
+GET {{host}}/api/authentication?sip=12.1.214.1&cn=q5shqv3r7bptsuzs6cincoif6esrt3r9
 ###
 
-GET {{host}}/api/authentication?isp=12.1.214.1&cn=q5shqv3r7bptsuzs6cincoif6esrt3r9
+GET {{host}}/api/authentication?sip=12.1.214.1&cn=q5shqv3r7bptsuzs6cincoif6esrt3r9
 
 ###
 

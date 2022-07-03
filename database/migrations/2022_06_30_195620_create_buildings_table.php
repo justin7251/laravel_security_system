@@ -17,7 +17,7 @@ class CreateBuildingsTable extends Migration
             $table->id();
             $table->string('name', 100);
             $table->string('location', 50);
-            $table->string('isp', 20);
+            $table->string('sip', 20);
             $table->timestamps();
         });
     }

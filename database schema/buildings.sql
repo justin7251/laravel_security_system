@@ -31,7 +31,7 @@ CREATE TABLE `buildings` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `location` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `isp` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `sip` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -40,7 +40,7 @@ CREATE TABLE `buildings` (
 -- Dumping data for table `buildings`
 --
 
-INSERT INTO `buildings` (`id`, `name`, `location`, `isp`, `created_at`, `updated_at`) VALUES
+INSERT INTO `buildings` (`id`, `name`, `location`, `sip`, `created_at`, `updated_at`) VALUES
 (1, 'The Isaac Newton building', 'UK', '81.10.230.31', NULL, NULL),
 (2, 'The Oscar Wilde building', 'UK', '29.10.109.38', NULL, NULL),
 (3, 'The Charles Darwin', 'UK', '12.1.214.1', NULL, NULL),

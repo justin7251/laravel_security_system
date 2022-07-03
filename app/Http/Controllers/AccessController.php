@@ -20,13 +20,13 @@ class AccessController extends Controller
     }
 
     /**
-     * Check users accessible to the building with RFID card number, building ISP
+     * Check users accessible to the building with RFID card number, building SIP
      *
      * @return void
      */
     public function authentication()
     {
-        if (Building::where('isp', '=', request('isp'))->exists()) {
+        if (Building::where('sip', '=', request('sip'))->exists()) {
             if (request('cn')) {
                 $has_access = Employee::hasAccess();
                 if (!is_null($has_access[0]->building_id)) {
